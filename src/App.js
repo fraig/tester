@@ -1,11 +1,12 @@
-// src/App.js
 import React from 'react';
+import NumberField from './NumberField';
 import MyComponent from './MyComponent';
 
 function App() {
   return (
     <div>
-      <h1>My React App</h1>
+      <h1>Number Field Example</h1>
+      <NumberField />
       <MyComponent />
     </div>
   );
